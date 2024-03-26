@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { isMobile } from "react-device-detect";
 import { fruitEmojiMap } from "./modules/fruitData";
-import { NOSSR } from "./modules";
+import NoSSR from "./modules/NoSSR";
 import styles from "./fruits.module.css";
 
 function getRandomItem(arr: string[]): string {
